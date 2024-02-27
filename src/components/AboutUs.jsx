@@ -21,7 +21,7 @@ export default function AboutUs() {
 const handleSubmit=async (event)=>{
   event.preventDefault();
 
-  //object destructuring and storing object data in variables
+  //object destructuring and storing object data in variable
   const{name,email,message}=msg;
   try {
 
