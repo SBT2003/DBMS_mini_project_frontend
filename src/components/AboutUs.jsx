@@ -26,7 +26,7 @@ const handleSubmit=async (event)=>{
   try {
 
     //it is submitted on port which frontend is using but we want it at port 
-    //where backend is there thus, we need a proxy
+    //where backend is there thus, we need a proxy...
     const res=await fetch('/message',{
       method:"POST",
       headers:{
